@@ -14,6 +14,10 @@ minetest.register_node("candymod:candy",{ -- "candymod" comes from the mod.conf 
 	--tiles = {"default_dirt.png"},
 	-- all mods can use all textures, which is why we name the texture file with the mod name in it
 
+	-- textures should be square
+	-- standard sizes are 16*16px or 32*32px, but you can have as much detail as you want.
+	-- smaller pictures are generally better, they give the pixel-world feel
+
 	groups = {cracky = 3,
 		choppy = 3,
 		snappy = 2,
